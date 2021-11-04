@@ -1,0 +1,239 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+p {
+    font-size: 20px;
+}
+header {
+    background-color: #4B4B4B;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+
+}
+
+.header {
+    position: relative;
+    width: 450px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    background: #020117;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: inline-block;
+    font-size: 35px;
+    
+    
+   
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    z-index: -1;
+    border-radius: 15px;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    z-index: -2;
+    filter: blur(40px);
+  }
+  
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+
+    max-width: 100%;
+}
+.banner .welcome {
+    background-color: #0a0ad7e9 0.3;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+    top: 30%;
+}
+.banner h2 {
+    font-size: 74px;
+}
+.banner h2 span {
+
+    font-size: 1.3em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #fff700;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    
+  }
+
+.image1 {
+    width:500px;
+    height:300px;
+    float: left;
+    margin-right: 25px;
+    padding-top:5px;
+    position: relative;
+
+}
+
+
+.image1:hover {
+    top: -10px;
+  }
+
+.image2 {
+    width:500px;
+    height:300px;
+    float: right;
+    padding-top: 75px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.image2:hover {
+    top: -10px;
+  }
+
+.title {
+    color: #fbff00;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 60px;
+    font-weight:bold;
+    font-family: 'Trebuchet MS';
+    margin-bottom: -10px; 
+    
+}
+.text {
+    line-height: 2em;
+    color: #4B4B4B;
+    font-family: 'Times New Roman';
+    text-align: justify;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+
+
+
+
+
+aside {
+    background: #F4F4F4;
+    padding: 15px;
+  }
+
+aside h2 {
+    text-align: center;
+    color:black;
+    padding-bottom: 4px;
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+    
+}
+
+aside ul {
+    text-align: center;
+    line-height: 2.5em;
+    animation: fadeIn linear 5s;
+  -webkit-animation: fadeIn linear 5s;
+  -moz-animation: fadeIn linear 5s;
+  -o-animation: fadeIn linear 5s;
+  -ms-animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+
+aside li a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+aside li {
+    font-size: 24px;
+}
+
+footer{
+    background: #1c4587ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Tahoma;
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+  -moz-animation: fadeIn linear 5s;
+  -o-animation: fadeIn linear 5s;
+  -ms-animation: fadeIn linear 5s;
+  text-shadow: 3px 3px black;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  a:active {
+    color: black;
+  }
+
+
